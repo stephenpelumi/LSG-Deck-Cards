@@ -10,7 +10,7 @@ body {
   height: 100%;
 }
 body {
-  background-color: #45a173;
+  background-image: url(faces/LSG\ Background.jpg);
   color: #333;
   font-family: 'Open Sans', sans-serif;
   -webkit-user-select: none;
@@ -37,9 +37,19 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #334d41;
   padding: 0.25rem;
   text-align: center;
+}
+.major_container{
+  background: rgba(1, 72, 104, 0.22);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.6px);
+  -webkit-backdrop-filter: blur(2.6px); 
+}
+.logo{
+  width: 80px;
+  height: 50px;
+  z-index: 9999;
 }
 #topbar button {
   background: none;
@@ -115,7 +125,7 @@ body {
 }
 .card .back {
   position: absolute;
-  background-image: url("faces/back.png");
+  background-image: url("faces/Card Vertical Design 4.png");
   background-position: 50% 50%;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
